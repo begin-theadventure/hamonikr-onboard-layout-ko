@@ -20,7 +20,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 -->
 
 <keyboard 
-    id='Grid'
+    id='Korean Keyboard Grid'
     format='3.2'
     section="system"
     summary="Grid of keys, suitable for keyboard scanning" >
@@ -45,43 +45,43 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
                 <key group='alphanumeric' id='7' keycode='16'/>
                 <key group='alphanumeric' id='8' keycode='17'/>
                 <key group='alphanumeric' id='9' keycode='18'/>
-                <key group='alphanumeric' id='e' keycode='26'/>
-                <key group='alphanumeric' id='r' keycode='27'/>
-                <key group='alphanumeric' id='t' keycode='28'/>
-                <key group='alphanumeric' id='y' keycode='29'/>
-                <key group='alphanumeric' id='u' keycode='30'/>
-                <key group='alphanumeric' id='i' keycode='31'/>
-                <key group='alphanumeric' id='o' keycode='32'/>
-                <key group='alphanumeric' id='p' keycode='33'/>
-                <key group='alphanumeric' id='s' keycode='39'/>
-                <key group='alphanumeric' id='d' keycode='40'/>
-                <key group='alphanumeric' id='f' keycode='41'/>
-                <key group='alphanumeric' id='g' keycode='42'/>
-                <key group='alphanumeric' id='h' keycode='43'/>
-                <key group='alphanumeric' id='j' keycode='44'/>
-                <key group='alphanumeric' id='k' keycode='45'/>
-                <key group='alphanumeric' id='l' keycode='46'/>
-                <key group='alphanumeric' id='x' keycode='53'/>
-                <key group='alphanumeric' id='c' keycode='54'/>
-                <key group='alphanumeric' id='v' keycode='55'/>
-                <key group='alphanumeric' id='b' keycode='56'/>
-                <key group='alphanumeric' id='n' keycode='57'/>
+                <key group='alphanumeric' id='e' keycode='26' label="e ㄷ" shift_label="E ㄸ" sticky="false"/>
+                <key group='alphanumeric' id='r' keycode='27' label="r ㄱ" shift_label="R ㄲ" sticky="false"/>
+                <key group='alphanumeric' id='t' keycode='28' label="t ㅅ" shift_label="T ㅆ" sticky="false"/>
+                <key group='alphanumeric' id='y' keycode='29' label="y ㅛ" shift_label="Y ㅛ" sticky="false"/>
+                <key group='alphanumeric' id='u' keycode='30' label="u ㅕ" shift_label="U ㅕ" sticky="false"/>
+                <key group='alphanumeric' id='i' keycode='31' label="i ㅑ" shift_label="I ㅑ" sticky="false"/>
+                <key group='alphanumeric' id='o' keycode='32' label="o ㅐ" shift_label="O ㅒ" sticky="false"/>
+                <key group='alphanumeric' id='p' keycode='33' label="p ㅔ" shift_label="P ㅖ" sticky="false"/>
+                <key group='alphanumeric' id='s' keycode='39' label="s ㄴ" shift_label="S ㄴ" sticky="false"/>
+                <key group='alphanumeric' id='d' keycode='40' label="d ㅇ" shift_label="D ㅇ" sticky="false"/>
+                <key group='alphanumeric' id='f' keycode='41' label="f ㄹ" shift_label="F ㄹ" sticky="false"/>
+                <key group='alphanumeric' id='g' keycode='42' label="g ㅎ" shift_label="G ㅎ" sticky="false"/>
+                <key group='alphanumeric' id='h' keycode='43' label="h ㅗ" shift_label="H ㅗ" sticky="false"/>
+                <key group='alphanumeric' id='j' keycode='44' label="j ㅓ" shift_label="J ㅓ" sticky="false"/>
+                <key group='alphanumeric' id='k' keycode='45' label="k ㅏ" shift_label="K ㅏ" sticky="false"/>
+                <key group='alphanumeric' id='l' keycode='46' label="l ㅣ" shift_label="L ㅣ" sticky="false"/>
+                <key group='alphanumeric' id='x' keycode='53' label="x ㅌ" shift_label="X ㅌ" sticky="false"/>
+                <key group='alphanumeric' id='c' keycode='54' label="c ㅊ" shift_label="C ㅊ" sticky="false"/>
+                <key group='alphanumeric' id='v' keycode='55' label="v ㅍ" shift_label="V ㅍ" sticky="false"/>
+                <key group='alphanumeric' id='b' keycode='56' label="b ㅠ" shift_label="B ㅠ" sticky="false"/>
+                <key group='alphanumeric' id='n' keycode='57' label="n ㅜ" shift_label="N ㅜ" sticky="false"/>
                 <key group='alphanumeric' id='comma' keycode='59'/>
 
                 <panel id="variable_keys" layout="be,fr,cm(azerty)">
-                    <key group="alphanumeric" id="q" keycode='38' />
-                    <key group="alphanumeric" id="a" keycode='24' />
-                    <key group="alphanumeric" id="m" keycode="47" />
-                    <key group='alphanumeric' id='w' keycode='52'/>
-                    <key group='alphanumeric' id='z' keycode='25'/>
+                    <key group="alphanumeric" id="q" keycode='38' label="q ㅂ" shift_label="Q ㅃ" sticky="false"/>
+                    <key group="alphanumeric" id="a" keycode='24' label="a ㅁ" shift_label="A ㅁ" sticky="false"/>
+                    <key group="alphanumeric" id="m" keycode="47" label="m ㅡ" shift_label="M ㅡ" sticky="false"/>
+                    <key group='alphanumeric' id='w' keycode='52' label="w ㅈ" shift_label="W ㅉ" sticky="false"/>
+                    <key group='alphanumeric' id='z' keycode='25' label="z ㅋ" shift_label="Z ㅋ" sticky="false"/>
                     <key group="alphanumeric" id="full-stop" keycode="58" />
                 </panel>
                 <panel id="variable_keys">
-                    <key group='alphanumeric' id='q' keycode='24'/>
-                    <key group='alphanumeric' id='a' keycode='38'/>
-                    <key group='alphanumeric' id='m' keycode='58'/>
-                    <key group='alphanumeric' id='w' keycode='25'/>
-                    <key group='alphanumeric' id='z' keycode='52'/>
+                    <key group='alphanumeric' id='q' keycode='24' label="q ㅂ" shift_label="Q ㅃ" sticky="false"/>
+                    <key group='alphanumeric' id='a' keycode='38' label="a ㅁ" shift_label="A ㅁ" sticky="false"/>
+                    <key group='alphanumeric' id='m' keycode='58' label="m ㅡ" shift_label="M ㅡ" sticky="false"/>
+                    <key group='alphanumeric' id='w' keycode='25' label="w ㅈ" shift_label="W ㅉ" sticky="false"/>
+                    <key group='alphanumeric' id='z' keycode='52' label="z ㅋ" shift_label="Z ㅋ" sticky="false"/>
                     <key group='alphanumeric' id='full-stop' keycode='60'/>
                 </panel>
 
